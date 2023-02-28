@@ -6,4 +6,9 @@ Inspired by [Web3 Modal avatar](https://github.com/WalletConnect/web3modal)
 
 ---
 
+## 🖥️ Live Demo
+See live demo on [web3-avatar.netlify.app](https://web3-avatar.netlify.app)
+
+---
+
 ## Coming soon...

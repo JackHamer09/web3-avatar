@@ -6,6 +6,11 @@ Inspired by [Web3 Modal](https://github.com/WalletConnect/web3modal) avatar.
 
 ---
 
+## 🖥️ Live Demo
+See live demo on [web3-avatar.netlify.app](https://web3-avatar.netlify.app)
+
+---
+
 ## 📦 Installation
 You can install the library using npm:
 ```bash
