@@ -1,3 +1,5 @@
+![web3 avatar preview image](https://user-images.githubusercontent.com/47187316/221898436-ace45b7c-f303-4b3b-b1ae-a24a1958d489.png)
+
 # Web3 Avatar - vanilla JavaScript
 Web3 Avatar is a lightweight JavaScript library for generating beautiful gradient avatars from Ethereum addresses. This is vanilla JavaScript version of the library. If you are looking for other versions like [Vue](https://github.com/JackHamer09/web3-avatar/blob/master/vue) or [React](https://github.com/JackHamer09/web3-avatar/blob/master/react), please check the [main repository](https://github.com/JackHamer09/web3-avatar).
 Inspired by [Web3 Modal](https://github.com/WalletConnect/web3modal) avatar.

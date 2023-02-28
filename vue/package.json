@@ -2,7 +2,7 @@
   "name": "web3-avatar-vue",
   "description": "Vue component for generating beautiful Web3 gradient avatars",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",

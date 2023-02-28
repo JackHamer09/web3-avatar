@@ -1,6 +1,6 @@
 {
   "name": "web3-avatar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate beautiful Web3 address gradient avatar",
   "main": "./index.js",
   "types": "./index.d.ts",
