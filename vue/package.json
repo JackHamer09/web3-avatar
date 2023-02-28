@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/JackHamer09/web3-avatar/issues"
   },
-  "homepage": "https://github.com/JackHamer09/web3-avatar#readme",
+  "homepage": "https://web3-avatar.netlify.app/",
   "files": [
     "dist"
   ],
