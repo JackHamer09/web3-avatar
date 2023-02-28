@@ -6,7 +6,7 @@ Inspired by [Web3 Modal](https://github.com/WalletConnect/web3modal) avatar.
 
 ---
 
-## Installation
+## 📦 Installation
 You can install the library using npm:
 ```bash
 npm install web3-avatar # or yarn add web3-avatar
@@ -39,7 +39,7 @@ createWeb3Avatar(someElement, '0x11Ed0AC7D6142481E459B6e5d4bfB5646277796f');
 
 ---
 
-## API
+## 📖 API
 
 ### `createWeb3Avatar(element, address)`
 Creates a Web3 Avatar in the given element.

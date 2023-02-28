@@ -6,7 +6,7 @@ Inspired by [Web3 Modal avatar](https://github.com/WalletConnect/web3modal)
 
 ---
 
-## Installation
+## 📦 Installation
 You can install the library using npm:
 ```bash
 npm install web3-avatar-vue # or yarn add web3-avatar-vue
@@ -14,7 +14,7 @@ npm install web3-avatar-vue # or yarn add web3-avatar-vue
 
 ---
 
-## Quick start
+## 🚀 Quick start
 For more detailed usage instructions see the [usage](#usage).
 
 ```html
