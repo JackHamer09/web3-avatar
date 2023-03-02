@@ -46,8 +46,25 @@
               vanilla JavaScript</a
             >.
           </p>
-          <AddressInput v-model="address" :invalid="!!address && !isAddressValid" class="mx-auto mt-4 max-w-[380px]" />
-          <div class="mt-5 flex items-center justify-center gap-x-6">
+          <div class="mx-auto mt-4 grid w-max grid-cols-[1fr_max-content] justify-center gap-2">
+            <AddressInput
+              v-model="address"
+              :invalid="!!address && !isAddressValid"
+              class="w-[calc(75vw_-_37.5px_-_8px)] sm:w-[380px]"
+            />
+            <button
+              class="flex -mr-[37.5px] aspect-square h-[37.5px] w-auto items-center justify-center rounded-md border border-gray-300 text-gray-700 transition-colors hover:border-gray-400 focus:border-indigo-600 focus:outline-none focus:ring-1 focus:ring-indigo-600 active:border-indigo-200 active:text-gray-500"
+              @click="generateRandomAddress"
+            >
+              <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path
+                  d="M252.3 11.7c-15.6-15.6-40.9-15.6-56.6 0l-184 184c-15.6 15.6-15.6 40.9 0 56.6l184 184c15.6 15.6 40.9 15.6 56.6 0l184-184c15.6-15.6 15.6-40.9 0-56.6l-184-184zM248 224c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zM96 248c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm128 80c13.3 0 24 10.7 24 24s-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24zm128-80c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zM224 72c13.3 0 24 10.7 24 24s-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24zm96 392c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V240c0-26.5-21.5-48-48-48H472.5c13.4 26.9 8.8 60.5-13.6 82.9L320 413.8V464zm160-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="flex mt-5 justify-center gap-x-6">
             <a
               href="https://github.com/JackHamer09/web3-avatar#readme"
               target="_blank"
@@ -113,6 +130,10 @@ watchEffect(() => {
     lastValidAddress.value = address.value;
   }
 });
+
+function generateRandomAddress() {
+  address.value = ethers.Wallet.createRandom().address;
+}
 </script>
 
 <style lang="scss" scoped>

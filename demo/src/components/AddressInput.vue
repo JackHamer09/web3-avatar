@@ -1,11 +1,11 @@
 <template>
-  <div class="relative mt-1 rounded-md shadow-sm">
+  <div class="relative rounded-md shadow-sm">
     <input
       v-model="inputted"
       type="text"
       name="address"
       maxlength="42"
-      class="block w-full rounded-md border-gray-300 text-center text-xs leading-relaxed text-gray-800 transition-colors placeholder:font-medium focus:border-indigo-600 focus:outline-none focus:ring-indigo-600"
+      class="block w-full rounded-md border border-gray-300 bg-transparent text-center text-xs leading-relaxed text-gray-800 transition-colors placeholder:font-medium focus:border-indigo-600 focus:outline-none focus:ring-indigo-600"
       :class="{ error: invalid }"
       placeholder="Enter ethereum address"
     />
