@@ -2,7 +2,7 @@
   "name": "web3-avatar-vue",
   "description": "Vue component for generating beautiful Web3 gradient avatars",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -38,7 +38,8 @@
   "exports": {
     ".": {
       "import": "./dist/web3-avatar-vue.es.js",
-      "require": "./dist/web3-avatar-vue.umd.js"
+      "require": "./dist/web3-avatar-vue.umd.js",
+      "types": "./dist/main.d.ts"
     },
     "./dist/style.css": {
       "import": "./dist/style.css",
